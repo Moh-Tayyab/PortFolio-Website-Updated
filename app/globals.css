@@ -2,3 +2,110 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    color: white;
+    background-color: #121212; /* Darker background for a sleek look */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%; /* Full width for better responsiveness */
+  }
+  
+  .contact-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5em; /* Slightly larger font for emphasis */
+    margin-bottom: 20px;
+    color: #3498db; /* A strong color for the title */
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600; /* Bold labels for better visibility */
+    color: #333; /* Darker color for labels */
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #3498db; /* Highlight color for active fields */
+    outline: none; /* Remove default outline */
+  }
+  
+  textarea {
+    height: 150px;
+    resize: none; /* Disable resizing for a cleaner look */
+  }
+  
+  .btn {
+    background-color: #3498db; /* Primary button color */
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; /* Slightly larger font size */
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  }
+  
+  .btn:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scaling for effect */
+  }
+  
+  .contact-form {
+    color: #333; /* Set text color for form content */
+  }
+  
+  .my {
+    float: right; /* If this is for specific content alignment */
+  }
+  
+  /* Additional Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 20px; /* Less padding on smaller screens */
+    }
+  
+    h1 {
+      font-size: 2em; /* Adjust font size for smaller screens */
+    }
+  }
+  

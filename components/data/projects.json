@@ -1,0 +1,134 @@
+{
+   "projects": [
+     {
+       "id": 1,
+       "title": "Todo App",
+       "slug": "todo-fundamentils",
+       "description": "Our TypeScript-based to-do app offers secure, efficient task management and progress tracking. Designed with scalability and reliability, it streamlines productivity operations while prioritizing user experience and data security.",
+       "instructor": "Mannal Rana",
+       "isFeatured": true
+     },
+     {
+       "id": 2,
+       "title": "Calculator",
+       "slug": "calculator-fundamentils",
+       "description": "Introducing our TypeScript mini calculator: a sleek, user-friendly tool for quick and accurate calculations. Built with TypeScript for reliability, it simplifies arithmetic tasks with ease, making it perfect for both personal and professional use.",
+       "instructor": "Bilal Fareed",
+       "isFeatured": true
+     },
+     {
+       "id": 3,
+       "title": "ChatBot",
+       "slug": "chatbot-fundamentils",
+       "description": "Introducing our TypeScript chatbot: a sleek, intuitive assistant for quick and meaningful interactions. Built with TypeScript for reliability, it handles conversational tasks effortlessly, making it ideal for both personal and professional use.",
+       "instructor": "Ariba Memon",
+       "isFeatured": true
+     },
+     {
+       "id": 3,
+       "title": "Real Estate",
+       "slug": "realestate-fundamentils",
+       "description": "TypeScript-powered real estate platform: a robust, user-friendly solution for managing property listings, client inquiries, and transactions. Designed with scalability and security in mind, it streamlines real estate operations and offers intuitive tools.",
+       "instructor": "Fahad Khan",
+       "isFeatured": true
+     },
+     {
+       "id": 4,
+       "title": "Guess The Number",
+       "slug": "guessthenumber-fundamentils",
+       "description": "Our TypeScript 'Guess the Number' game is a fun and interactive challenge that invites players to test their intuition by guessing a hidden number. Built with TypeScript, Inquirer, and Math functions, it delivers an enjoyable.",
+       "instructor": "Muhammad Bilal Khan",
+       "isFeatured": true
+     },
+     {
+       "id": 5,
+       "title": "Count Down Timer",
+       "slug": "countdowntimer-fundamentils",
+       "description": "Explore Our TypeScript Countdown Timer is a sleek, easy-to-use tool for tracking time with precision. Built with TypeScript and intuitive controls, it’s perfect for managing tasks, events, or any timed activity efficiently.",
+       "instructor": "Asharib Ali",
+       "isFeatured": true
+     },
+     {
+       "id": 6,
+       "title": "Word Counter",
+       "slug": "wordcounter-fundamentils",
+       "description": "Explore our TypeScript Word Counter project: An efficient tool for tracking word counts with precision. Powered by TypeScript, it offers reliability and accuracy, simplifying text analysis tasks. Perfect for writers, students, and professionals, our Word Counter provides a user-friendly interface for seamless word counting experiences.",
+       "instructor": "Asharib Ali",
+       "isFeatured": false
+     },
+     {
+       "id": 7,
+       "title": "Currency Convertor",
+       "slug": "currencyconvertor-fundamentils",
+       "description": "Our TypeScript Countdown Timer project: a simple and reliable tool for tracking time. Built with TypeScript, it makes time management easy. Perfect for students and professionals, our Countdown Timer features a user-friendly design for effortless countdowns.",
+       "instructor": "Mannal Rana",
+       "isFeatured": true
+     },
+     {
+       "id": 8,
+       "title": "Editable Resume Builder",
+       "slug": "editable-resume-fundamentils",
+       "description": "Welcome to my Editable Resume Builder powered by HTML, CSS, and TypeScript: Create and customize your resume effortlessly through a dynamic and responsive interface. Enjoy fast performance and seamless navigation as you design your professional profile.",
+       "instructor": "Ameen Alam",
+       "isFeatured": true
+     },
+     {
+       "id": 9,
+       "title": "Shareable Link Resume",
+       "slug": "shareable-resume-fundamentils",
+       "description": "Welcome to my Shareable Link Resume Builder powered by HTML, CSS, and TypeScript: Effortlessly create and customize your resume with a dynamic and responsive interface. Experience quick performance and easy navigation as you craft your professional profile, ready to be shared with just a link.",
+       "instructor": "Ameen Alam",
+       "isFeatured": true
+     },
+     {
+       "id": 10,
+       "title": "Governor Sindh Website",
+       "slug": "governor-website-fundamentils",
+       "description": "Welcome to the Governor Sindh IT Initiative website: Explore our mission to enhance technology and innovation across Sindh. Navigate through a dynamic and responsive interface that highlights our programs and projects, offering fast performance.",
+       "instructor": "Ameen Alam",
+       "isFeatured": true
+     },
+     {
+       "id": 11,
+       "title": "Portfolio Website",
+       "slug": "profolio-fundamentils",
+       "description": "Welcome to my Portfolio Website powered by Next.js: Explore my work and skills through a dynamic, responsive interface. Experience fast performance and seamless navigation as you delve into my projects and expertise.",
+       "instructor": "Asharib Ali",
+       "isFeatured": true
+     },
+        {
+       "id": 12,
+       "title": "Snake Game App",
+       "slug": "snake-game-fundamentils",
+       "description": "Welcome to the Snake Game App: Enjoy a classic gaming experience with a modern twist. Dive into a dynamic and engaging interface as you navigate your snake to collect food and grow longer, all while ensuring fast performance.",
+       "instructor": "Asharib Ali",
+       "isFeatured": true
+     },
+       {
+       "id": 13,
+       "title": "Github Profile Viewer App",
+       "slug": "github-profile-viewer-fundamentils",
+       "description": "Welcome to the GitHub Profile Viewer App: Easily explore GitHub profiles with a user-friendly interface. Get quick insights into repositories, followers, and contributions, all with fast performance and smooth navigation.",
+       "instructor": "Asharib Ali",
+       "isFeatured": true
+     },
+       {
+       "id": 14,
+       "title": "Google Sign-In-Auth",
+       "slug": "google-auth-fundamentils",
+       "description": "Welcome to the Google Sign-In Auth: Simplify your authentication process with a straightforward interface. Effortlessly sign in using your Google account for quick access, ensuring fast performance and secure navigation throughout your application.",
+       "instructor": "Saleem Raza",
+       "isFeatured": true
+     },
+       {
+       "id": 15,
+       "title": "Movie Search App",
+       "slug": "movie-search-app-fundamentils",
+       "description": "Welcome to the Movie Searcher App: Quickly find and explore movies with an easy-to-use interface. Enjoy fast performance and smooth navigation as you browse details, ratings, and reviews for your favorite films.",
+       "instructor": "Asharib Ali",
+       "isFeatured": true
+     }
+ 
+ 
+   ]
+ }
