@@ -25,7 +25,7 @@
        "isFeatured": true
      },
      {
-       "id": 3,
+       "id": 4,
        "title": "Real Estate",
        "slug": "realestate-fundamentils",
        "description": "TypeScript-powered real estate platform: a robust, user-friendly solution for managing property listings, client inquiries, and transactions. Designed with scalability and security in mind, it streamlines real estate operations and offers intuitive tools.",
@@ -33,7 +33,7 @@
        "isFeatured": true
      },
      {
-       "id": 4,
+       "id": 5,
        "title": "Guess The Number",
        "slug": "guessthenumber-fundamentils",
        "description": "Our TypeScript 'Guess the Number' game is a fun and interactive challenge that invites players to test their intuition by guessing a hidden number. Built with TypeScript, Inquirer, and Math functions, it delivers an enjoyable.",
@@ -41,20 +41,12 @@
        "isFeatured": true
      },
      {
-       "id": 5,
+       "id": 6,
        "title": "Count Down Timer",
        "slug": "countdowntimer-fundamentils",
        "description": "Explore Our TypeScript Countdown Timer is a sleek, easy-to-use tool for tracking time with precision. Built with TypeScript and intuitive controls, it’s perfect for managing tasks, events, or any timed activity efficiently.",
        "instructor": "Asharib Ali",
        "isFeatured": true
-     },
-     {
-       "id": 6,
-       "title": "Word Counter",
-       "slug": "wordcounter-fundamentils",
-       "description": "Explore our TypeScript Word Counter project: An efficient tool for tracking word counts with precision. Powered by TypeScript, it offers reliability and accuracy, simplifying text analysis tasks. Perfect for writers, students, and professionals, our Word Counter provides a user-friendly interface for seamless word counting experiences.",
-       "instructor": "Asharib Ali",
-       "isFeatured": false
      },
      {
        "id": 7,
@@ -128,7 +120,6 @@
        "instructor": "Asharib Ali",
        "isFeatured": true
      }
- 
- 
+
    ]
  }

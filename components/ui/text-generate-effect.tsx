@@ -1,14 +1,13 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/lib/utils";
-
 
 export const TextGenerateEffect = ({
   words,
   className,
   filter = true,
-  duration = 1,
+  duration = 0.5,
 }: {
   words: string;
   className?: string;
@@ -17,7 +16,8 @@ export const TextGenerateEffect = ({
 }) => {
   const [scope, animate] = useAnimate();
   const wordsArray = words.split(" ");
-  useEffect(() => {
+
+  const triggerAnimation = useCallback(() => {
     animate(
       "span",
       {
@@ -25,28 +25,30 @@ export const TextGenerateEffect = ({
         filter: filter ? "blur(0px)" : "none",
       },
       {
-        duration: duration ? duration : 1,
+        duration: duration || 1,
         delay: stagger(0.5),
       }
     );
-  }, [scope.current]);
+  }, [animate, duration, filter]);
+
+  useEffect(() => {
+    triggerAnimation();
+  }, [triggerAnimation]);
 
   const renderWords = () => {
     return (
       <motion.div ref={scope}>
-        {wordsArray.map((word, idx) => {
-          return (
-            <motion.span
-              key={word + idx}
-              className="dark:text-white text-white opacity-0"
-              style={{
-                filter: filter ? "blur(10px)" : "none",
-              }}
-            >
-              {word}{" "}
-            </motion.span>
-          );
-        })}
+        {wordsArray.map((word, idx) => (
+          <motion.span
+            key={word + idx}
+            className="text-white opacity-0 dark:text-white"
+            style={{
+              filter: filter ? "blur(10px)" : "none",
+            }}
+          >
+            {word}{" "}
+          </motion.span>
+        ))}
       </motion.div>
     );
   };
@@ -54,7 +56,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="mt-4">
-        <div className="text-black dark:text-white text-center sm:text-6xl md:text-6xl lg:text-6xl leading-snug tracking-wide items-center justify-center text-3xl">
+        <div className="items-center justify-center text-3xl leading-snug tracking-wide text-center text-black dark:text-white sm:text-6xl md:text-6xl lg:text-6xl">
           {renderWords()}
         </div>
       </div>

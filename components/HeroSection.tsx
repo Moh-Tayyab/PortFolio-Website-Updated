@@ -39,7 +39,7 @@ const Hero = () => {
         <div className="absolute inset-0 w-full h-full bg-[#002642] z-10 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
         <Boxes />
         <div>
-          <TextHoverEffect text="Welcome To My Portfolio" />
+          <TextHoverEffect text="Welcome To My Website" />
 
           <TextGenerateEffect
             words="
